@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Hero = () => {
     return (
         <>
@@ -8,6 +6,7 @@ const Hero = () => {
                 <div className="width-container">
                     <article className="wrapper wrapper--vertical">
                         <div className="marquee marquee--vertical">
+                            
                             <div className="marquee__group">
                                 <img className="marquee-img" src='/img/project1.png' alt="" />
                                 <img className="marquee-img" src='/img/project1.png' alt="" />
@@ -17,28 +16,29 @@ const Hero = () => {
                             </div>
 
                             <div aria-hidden="true" className="marquee__group">
-                            <img className="marquee-img" src='/img/project1.png' alt="" />
-                            <img className="marquee-img" src='/img/project1.png' alt="" />
-                            <img className="marquee-img" src='/img/project1.png' alt="" />
-                            <img className="marquee-img" src='/img/project1.png' alt="" />
-                            <img className="marquee-img" src='/img/project1.png' alt="" />
+                                <img className="marquee-img" src='/img/project1.png' alt="" />
+                                <img className="marquee-img" src='/img/project1.png' alt="" />
+                                <img className="marquee-img" src='/img/project1.png' alt="" />
+                                <img className="marquee-img" src='/img/project1.png' alt="" />
+                                <img className="marquee-img" src='/img/project1.png' alt="" />
                             </div>
+
                         </div>
                         <div className="marquee marquee--reverse marquee--vertical">
                             <div className="marquee__group">
-                            <img className="marquee-img" src='/img/project1.png' alt="" />
-                            <img className="marquee-img" src='/img/project1.png' alt="" />
-                            <img className="marquee-img" src='/img/project1.png' alt="" />
-                            <img className="marquee-img" src='/img/project1.png' alt="" />
-                            <img className="marquee-img" src='/img/project1.png' alt="" />
+                                <img className="marquee-img" src='/img/project1.png' alt="" />
+                                <img className="marquee-img" src='/img/project1.png' alt="" />
+                                <img className="marquee-img" src='/img/project1.png' alt="" />
+                                <img className="marquee-img" src='/img/project1.png' alt="" />
+                                <img className="marquee-img" src='/img/project1.png' alt="" />
                             </div>
 
                             <div aria-hidden="true" className="marquee__group">
-                            <img className="marquee-img" src='/img/project1.png' alt="" />
-                            <img className="marquee-img" src='/img/project1.png' alt="" />
-                            <img className="marquee-img" src='/img/project1.png' alt="" />
-                            <img className="marquee-img" src='/img/project1.png' alt="" />
-                            <img className="marquee-img" src='/img/project1.png' alt="" />
+                                <img className="marquee-img" src='/img/project1.png' alt="" />
+                                <img className="marquee-img" src='/img/project1.png' alt="" />
+                                <img className="marquee-img" src='/img/project1.png' alt="" />
+                                <img className="marquee-img" src='/img/project1.png' alt="" />
+                                <img className="marquee-img" src='/img/project1.png' alt="" />
                             </div>
                         </div>
                     </article>
